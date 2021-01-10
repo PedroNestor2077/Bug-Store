@@ -1,0 +1,153 @@
+#header{
+    display:flex;
+    background-image:linear-gradient(to right,rgb(160, 154, 154),rgb(231, 223, 223),rgb(212, 208, 208));
+    width:100%;
+    height:150px;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    font-family:sans-serif;
+}
+#logo{
+    position:relative;
+    bottom:0px;
+    right:0px;
+    height:100px;
+    
+}
+#logo img{
+    pointer-events:none;
+}
+#search_bar{
+    width:50%;
+    display:flex;
+    justify-content: center;
+    height:50px;
+}
+#search_bar input{
+    transition: width 0.4s ease-in-out;
+    width:70%;
+    padding: 12px 20px;
+    border:none;
+    border-bottom:solid rgba(41, 40, 40, 0.774) 2px;
+    border-radius:105px;
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    font-size:17px ;
+}
+#search_bar input:focus{
+    transition: width 0.4s ease-in-out;
+    width:80%;
+    padding: 12px 20px;
+    border:none;
+    border-bottom:solid rgb(0, 0, 0) 2px;
+    border-radius:105px;
+
+}
+#bt_find{
+    width:50px;
+    cursor:pointer;
+    background-color:rgba(0,0,0,0);
+    border:none;
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+#bt_find:active{
+    position: relative;
+    top:5px;
+}
+#ico_find{
+    width:50px;
+    cursor:pointer;
+    background-color:rgba(0,0,0,0);
+    border:none;
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+#login_bar{
+    align-self:top;
+    position: relative;
+    bottom:30px;
+    left:60px;
+    display:flex;
+    width:300px;
+    align-items: center;
+}
+#login_bar a{
+    margin-right:10px;
+    margin-left:10px;
+    text-decoration:none;
+}
+#nav_bar{
+    background-color:rgba(65, 63, 63, 0);
+    width:100%;
+    height:50px;
+    align-self:baseline;
+    display:flex;
+    justify-content:center;
+    margin-top:-2px;
+    
+}
+.bt_nav{
+    width:13%;
+    border:none;
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    border:solid rgba(0, 0, 0, 0.733) 1px;
+    border-left:none;
+    border-right:none;
+    background-color:rgba(5, 0, 0, 0);
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    font-size:20px;
+}
+.bt_nav:hover{
+    font-family:Helvetica;
+    border:solid white 3px;
+    transition:all .3s;
+    background-color:rgba(221, 215, 215, 0.781);
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.568);
+}
+.bt_nav:active{
+    transition:none;
+    border:solid rgb(0, 0, 0) 2px;
+    position: relative;
+    top:2px;
+}
+.bt_accont{
+    border-radius:200px;
+    height:35px;
+    width:140px;
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    border: none;
+    box-shadow:3px 3px 3px rgba(0, 0, 0, 0.719);
+}
+.bt_accont:active{
+    position: relative;
+    top:1px;
+    border-radius:200px;
+    height:35px;
+    width:140px;
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    border: none;
+}
+#bt_singup{
+    background-color:blue;
+}
+#bt_singup a{
+    color:white;
+
+}
+p{
+    margin-left:10px;
+    margin-right: 10px;
+    color:gray;
+}
