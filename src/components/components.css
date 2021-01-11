@@ -1,0 +1,187 @@
+.Mybutton{
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    font-size:20px;
+    background-color: rgb(223, 219, 219);
+    border-radius:20px;
+    width:100px;
+    height:40px;
+}
+.Mybutton:hover{
+    background-color: gray;
+    transition:all .3s;
+
+}
+.Mybutton:active{
+    position: relative;
+    top:1px;
+    
+}
+
+.bt_shop{
+    background-color:rgba(0, 0, 0, 0);
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    cursor: pointer;
+    border: none;
+    margin-right:20px;
+    width:40px;
+    height:40px;
+}
+.bt_shop:hover{
+    background-color:rgba(0, 0, 0, 0);
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    cursor: pointer;
+    border: none;
+}
+.bt_shop:active{
+    background-color:rgba(0, 0, 0, 0);
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    top:2px;
+}
+.bt_shop p{
+    color:red;
+    position: relative;
+    bottom:25px;
+    right:20px;
+    font-size:30px;
+}
+#p_star{
+    color:gold;
+}
+
+.bt_accont{
+    border-radius:200px;
+    height:25px;
+    width:100px;
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    border: none;
+    box-shadow:3px 3px 3px rgba(0, 0, 0, 0.719);
+
+}
+.bt_accont:active{
+    position: relative;
+    top:1px;
+    border-radius:200px;
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    border: none;
+}
+#bt_singup{
+    background-color:rgb(72, 72, 243);
+    margin-top:10px;
+}
+#bt_singup a{
+    color:white;
+    width:100px;
+    margin: 0px;
+    padding:0px;
+}
+#bt_singout{
+    background-color:rgba(253, 8, 0, 0.76);
+    margin-top:10px;
+}
+#bt_singout a{
+    color:white;
+    width:100px;
+    margin: 0px;
+    padding:0px;
+}
+
+#div_bt_login{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    width:50%;
+    margin-top:5px;
+
+}
+/* ---------------------------USER TOOLS---------------------- */
+#user_tools{
+    align-self:top;
+    display:flex;
+    width:200px;
+    height:100px;
+    align-items:top;
+    justify-content:flex-end;
+    background-color:rgba(128, 128, 128, 0);
+}
+#lang{
+    margin-top:29px;
+}
+
+/* ------------------------USER INFO----------------- */
+#user_info{
+    background-color:rgba(98, 98, 100, 0);
+    height:50px;
+    width:200px;
+    display: flex;
+    justify-content:flex-end;
+    margin-right:10px;
+    border-bottom:solid black 1px;
+}
+#user_photo{
+    border-radius:200px;
+    width:40px;
+    height:40px;
+    border:solid rgb(19, 18, 18) 2px;
+    background-color: rgba(0, 0, 0, 0);
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    border: none;
+    box-shadow:3px 3px 3px rgba(0, 0, 0, 0.568);
+    cursor: pointer;
+    margin-top:5px;
+}
+#user_photo:hover{
+    box-shadow:3px 3px 3px rgba(0, 0, 0, 0.877);
+}
+#user_photo:active{
+    box-shadow:none;
+    position: relative;
+    top:3px;
+}
+#user_photo_img{
+    border-radius:100px;
+    border:solid 1px black;
+}
+#user_name{
+    width:80%;
+    text-align:center;
+    text-decoration:underline;
+    margin:0px;
+    margin-right:5px;
+    margin-top:20px;
+    color:rgb(29, 28, 28);
+}
+#user-profile{
+    display: flex;
+    justify-content:flex-end;
+    flex-wrap:wrap;
+    width:100%;
+}
+#user_photo p{
+    position: relative;
+    bottom:20px;
+    right:15px;
+    color:red;
+    text-shadow:3px 3px 3px rgba(255, 217, 0, 0.623);
+    font-size:20px;
+}
+
+
