@@ -1,26 +1,55 @@
-.Mybutton{
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+.Menu_button{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
     outline: thin dotted;
     outline: 0px auto -webkit-focus-ring-color;
     outline-offset: 0px;
     color:rgb(0, 0, 0);
     cursor: pointer;
     font-size:20px;
-    background-color: rgb(223, 219, 219);
-    border-radius:20px;
-    width:100px;
-    height:40px;
+    background-color: rgba(223, 219, 219, 0);
+    width:auto;
+    height:50px;
+    font-family:'Surce code';
+    text-shadow:3px 3px rgba(0, 0, 0, 0.11);
+    border:none;
+    margin-left:4px;
+    border-radius:10px;
 }
-.Mybutton:hover{
+.Menu_button:hover{
     background-color: gray;
-    transition:all .3s;
-
 }
-.Mybutton:active{
+.Menu_button:active{
+    background-color:rgba(0, 0, 0, 0.514);
+}
+.Menu_button img{
+    border-radius: 200px;
+    margin-right:4px;
+}
+.Menu_button div{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    height:40px;
+    width:32px;
+}
+.Menu_button div p{
+    font-family: 'PT serif';
     position: relative;
-    top:1px;
-    
+    color:red;
+    font-size:20px;
+    top:3px;
+    right:4px;
+    background-color: rgba(255, 255, 255, 0.11);
+    border-radius:20px;
+    align-self:flex-end;
+    width:0px;
+    margin:0px;
+    text-align: center;
 }
-
 .bt_shop{
     background-color:rgba(0, 0, 0, 0);
     outline: thin dotted;
@@ -60,55 +89,17 @@
 #p_star{
     color:gold;
 }
-
-.bt_accont{
-    border-radius:200px;
-    height:25px;
-    width:100px;
-    outline: thin dotted;
-    outline: 0px auto -webkit-focus-ring-color;
-    outline-offset: 0px;
-    border: none;
-    box-shadow:3px 3px 3px rgba(0, 0, 0, 0.719);
-
-}
-.bt_accont:active{
-    position: relative;
-    top:1px;
-    border-radius:200px;
-    outline: thin dotted;
-    outline: 0px auto -webkit-focus-ring-color;
-    outline-offset: 0px;
-    border: none;
-}
-#bt_singup{
-    background-color:rgb(72, 72, 243);
-    margin-top:10px;
-}
-#bt_singup a{
-    color:white;
-    width:100px;
-    margin: 0px;
-    padding:0px;
-}
-#bt_singout{
-    background-color:rgba(253, 8, 0, 0.76);
-    margin-top:10px;
-}
-#bt_singout a{
-    color:white;
-    width:100px;
-    margin: 0px;
-    padding:0px;
-}
-
+/* ----------------------LOGIN BUTTON------------------ */
 #div_bt_login{
     display:flex;
-    flex-direction:column;
     justify-content:flex-start;
     width:50%;
     margin-top:5px;
-
+}
+.loginButton{
+    color:white;
+    margin-right:10px;
+    font-size:17px;
 }
 /* ---------------------------USER TOOLS---------------------- */
 #user_tools{
@@ -123,7 +114,6 @@
 #lang{
     margin-top:29px;
 }
-
 /* ------------------------USER INFO----------------- */
 #user_info{
     background-color:rgba(98, 98, 100, 0);
@@ -146,15 +136,14 @@
     border: none;
     box-shadow:3px 3px 3px rgba(0, 0, 0, 0.568);
     cursor: pointer;
-    margin-top:5px;
+    margin-top:15px;
+    
 }
 #user_photo:hover{
     box-shadow:3px 3px 3px rgba(0, 0, 0, 0.877);
 }
 #user_photo:active{
     box-shadow:none;
-    position: relative;
-    top:3px;
 }
 #user_photo_img{
     border-radius:100px;
@@ -177,11 +166,32 @@
 }
 #user_photo p{
     position: relative;
-    bottom:20px;
+    bottom:25px;
     right:15px;
     color:red;
-    text-shadow:3px 3px 3px rgba(255, 217, 0, 0.623);
     font-size:20px;
+    text-align:center;
+    font-family:'PT serif';
 }
+/* -------------------------USER MENU------------------------- */
+#menu{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    position:absolute;
+    top:60px;
+    right:10px;
+    background-color:rgb(250, 249, 249);
+    width:auto;
+    height:auto;
+    box-shadow:10px 0px 10px rgba(15, 15, 15, 0.61);
+    border-radius:10px;
+    background-image:linear-gradient(to right,rgb(221, 217, 217),rgb(214, 214, 214),gray);
+}
+#menu:hover{
+    box-shadow:10px 0px 10px rgba(15, 15, 15, 0.74);
+
+}
+
 
 

@@ -17,7 +17,13 @@ const lang={
         day_offer: "Day Offer",
         contact_us: "Contact Us",
         singout:"SingOut",
-        myaccount: "My Acoount"
+        myaccount: "Acount",
+        cart:"My cart",
+        favorites:"Favorites",
+        notfications:"Notifications",
+        settings:"Settings",
+        shopping:"Shopping",
+        sells:"Sells"
     },
     pt:{
         search_bar: "Buscar...",

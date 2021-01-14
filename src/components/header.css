@@ -1,6 +1,6 @@
 .header_full{
     display:flex;
-    background-image:linear-gradient(to top,rgb(176, 176, 180),rgba(94, 116, 163, 0.774));
+    background-color:rgb(233, 230, 230);
     width:100%;
     height:130px;
     flex-wrap:wrap;
@@ -15,7 +15,8 @@
 /*             header            */
 #logo{
     height:100px;
-    
+    position:relative;
+    left:20px;
 }
 #logo img{
     pointer-events:none;
@@ -126,7 +127,7 @@ select option{
 .category_on{
     position:absolute;  
     top:131px;
-    left:231px;
+    left:255px;
     width:169px;
     height:300px;
     background-color:rgb(44, 42, 42);

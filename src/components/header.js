@@ -2,8 +2,6 @@ import React, { useCallback } from "react";
 import "./header.css"
 import userlang from "../lang.js";
 import {show_category,hide_category,show_header,hide_header} from "../functions.js"
-import Button from "../components/button"
-import Bt_shop from "../components/bt_shop"
 import User_tools from "../components/user_tools"
 function Header() {
     return (
@@ -31,6 +29,7 @@ function Header() {
             <button className="bt_category">{userlang.sport}</button>
             <button className="bt_category">{userlang.fashion}</button>
             </div>  
+
         </div>/* header */
         
   );
