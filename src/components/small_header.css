@@ -1,14 +1,13 @@
 #small_header{
-    position:absolute;
+    position:fixed;
     top:0px;
     left:0px;
     display:flex;
     justify-content: space-between;
-    background-color: rgb(95, 94, 94);
+    background-color: rgb(114, 108, 108);
     width:100%;
-    height:70px;
-
-
+    height:80px;
+    align-items:center;
 }
 #logo_small{
     display:flex;
@@ -19,15 +18,15 @@
     width:33%;
     height:130%;
     position:relative;
-    left:20px;
+    left:.8%;
+    top:15px;
     cursor: pointer;
-    min-width:214px;
-    max-width:310px;
+    min-width:224px;
+    max-width:250px;
+    flex-wrap:nowrap;
 }
 #logo_small:hover{
-
     box-shadow:10px 10px 10px rgba(0, 0, 0, 0.603);
-
 }
 #logo_small img{
     margin-left:20px;
@@ -36,4 +35,8 @@
     display:flex;
     justify-content:space-between;
     margin-right:10px;
+}
+#div_select_login{
+    width:100%;
+    display:flex;
 }

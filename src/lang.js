@@ -31,7 +31,9 @@ const lang={
         singup: "Cadasto",
         category: "Categoria ▾",
         foryou: "Para você",
-    } 
+    },
 }
+export const languages=["eng","pt","es","franch"]
+
 const userlang=lang.english
 export default userlang

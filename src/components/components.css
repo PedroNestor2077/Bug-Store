@@ -93,13 +93,15 @@
 #div_bt_login{
     display:flex;
     justify-content:flex-start;
-    width:50%;
+    width:60%;
     margin-top:5px;
 }
 .loginButton{
     color:white;
     margin-right:10px;
     font-size:17px;
+    height:50%;
+    text-decoration:none;
 }
 /* ---------------------------USER TOOLS---------------------- */
 #user_tools{
@@ -136,7 +138,7 @@
     border: none;
     box-shadow:3px 3px 3px rgba(0, 0, 0, 0.568);
     cursor: pointer;
-    margin-top:15px;
+    margin-top:10px;
     
 }
 #user_photo:hover{
@@ -179,8 +181,8 @@
     flex-wrap:wrap;
     flex-direction:column;
     position:absolute;
-    top:60px;
-    right:10px;
+    top:90%;
+    right:1%;
     background-color:rgb(250, 249, 249);
     width:auto;
     height:auto;
@@ -191,6 +193,82 @@
 #menu:hover{
     box-shadow:10px 0px 10px rgba(15, 15, 15, 0.74);
 
+}
+#p_link{
+    position:absolute;
+    left:80%;
+    bottom:99.5%;
+    font-size:18px;
+    color:rgb(133, 132, 132);
+}
+/* --------------------------SearchBar----------------------- */
+.search_bar_full{
+    width:50%;
+    display:flex;
+    justify-content:flex-start;
+    height:200px;
+    margin-left:10px;
+    background-color: red;
+    flex-wrap:wrap;
+    border-radius: 10px;
+    margin-top:150px;
+}
+.search_bar_full input{
+    transition: width 0.4s ease-in-out;
+    width:80%;
+    padding: 12px 20px;
+    border:none;
+    border-bottom:solid rgba(41, 40, 40, 0.774) 2px;
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    font-size:17px ;
+    border-radius:10px;
+    min-width:120px;
+    height:100%;
+}
+.search_bar_full input:focus{
+    transition: width 0.4s ease-in-out;
+    width:110%;
+    padding: 12px 20px;
+    border:none;
+    border-bottom:solid rgb(0, 0, 0) 2px;
+}
+#SearchHistory{
+    width:100%;
+    height:150px;
+    background-color: blue;
+    border-radius:10px;
+    align-self:top;
+}
+#search{
+    height:25%;
+    display:flex;
+    width:100%;
+    align-items:center;
+}
+.historyButton{
+    height:20%;
+    width:100%;  
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    border:none;
+    font-family:'Code Pro';
+    font-size:20px;
+}
+.historyButton img{
+    margin-right:10px;
+}
+/* -------------------SelectButton -----------------------*/
+#selectButton{
+    height:50%;
+    width:50%;
+    margin-right:5px;
+}
+#selectButton:hover{
+    border:none;
+    width:100%;
 }
 
 

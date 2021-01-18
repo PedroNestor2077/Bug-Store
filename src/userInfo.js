@@ -1,5 +1,5 @@
 const UserInfo={
-    islogged:false,
+    islogged:true,
     first_name:"Pedro",
     Last_name:"Nestor",
     user_name:"@pedronestor",
